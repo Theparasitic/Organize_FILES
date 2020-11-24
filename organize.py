@@ -15,7 +15,6 @@ def pickDirectory(value):
                 return category
     return 'other types'
     
-print(pickDirectory('.pdf'))
 
 def organizeDirectory():
     for item in os.scandir():
